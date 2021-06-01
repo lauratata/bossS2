@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
+
+main {
+    background-color: #AF7373;
+    padding: 1em;
+}
+
+.splide__slide h4 {
+    text-align: center;
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 20px;
+    margin: 1em;
+    font-family: 'Cairo', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #2C0100;
+}
+
+.splide__slide h4:hover {
+    opacity: 0.7;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+footer a:hover, .album a:hover {
+    opacity: 0.8;
+}
+
+
+footer {
+    background-color: #2C0100;
+    color: white;
+    padding: 3em;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+}
+
+footer h3 {
+    border-bottom: white 1px solid;
+    margin: 1em;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer p {
+    border-top: white 1px solid;
+    margin: 1em;
+}
+
+i {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+/*Form*/
+
+#cancel, #valider {
+    border: none;
+    color: white;
+    padding: 1em;
+    width: 7em;
+    border-radius: 25px;
+    font-family: 'Staatliches', cursive;
+    cursor: pointer;
+    margin: 1em;
+    font-size: 1rem;
+}
+
+#cancel {
+    background: #2C0100;
+}
+
+#valider {
+    background: #AF7373;
+}
+
+input[type=text], input[type=date], input[type=file] {
+    margin: 0.5em;
+    width: 50%;
+    font-family: 'Cairo', sans-serif;
+}
+
+#form {
+    background-color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+#form h4 {
+    margin: 1em;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5rem;
+}

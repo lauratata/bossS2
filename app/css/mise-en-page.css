@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-index img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-index {
+    position: relative;
+    margin: -4px;
+}
+
+.img-index h1, h2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-index h1 {
+    font-family: 'Staatliches', cursive;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.img-index h2 {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/*Slider*/
+
+.splide__slide img {
+    width: 100%;
+    height: auto;
+}
+
+/*Page histoire */
+
+.histoire-section {
+    display: flex;
+    border-bottom: white 3px solid;
+    padding: 2em;
+    color: white;
+}
+
+.date {
+    width: 12em;
+    align-self: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.4rem;
+}
+
+.description {
+    width: 50em;
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.1rem;
+}
+
+/*Espace membre*/
+
+.espace-membres {
+    text-align: center;
+    color: white;
+    margin: 1em;
+}
+
+.nom-membre {
+    border-bottom: 2px white solid;
+    margin: 1em;
+    text-transform: uppercase;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5rem;
+}
+
+.espace-membres p {
+    font-family: 'Cairo', sans-serif;
+}
+
+/*Grille albums*/
+
+.grille-albums {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 2em;
+}
+
+.album {
+    margin: 1em;
+    width: 45%;
+    text-align: center;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+}
+
+.titre-album {
+    font-weight: 700;
+}
+

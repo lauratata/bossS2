@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Dreamcatcher - Index</title>
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/mise-en-page.css">
+    <link rel="stylesheet" href="css/styles-graphiques.css">
+    <link rel="stylesheet" href="css/typographie-et-couleurs.css">
+
+    <!--    Librairie Splidejs-->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
+    <script src="js/slider.js"></script>
+
+    <!--    Librairie fontawesome-->
+
+    <script src="https://kit.fontawesome.com/8444637501.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<header id="header">
+    <a href="index.html">
+        <img src="img/grp-logo.svg" alt="Index">
+    </a>
+    <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toggle-bar"></div>
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="histoire.html">Histoire</a></li>
+            <li><a href="discographie.html">Discographie</a></li>
+            <li><a href="membres.html">Membres</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="img-index">
+    <img src="img/dreamcatcher-rtu2.jpeg" alt="Le groupe Dreamcatcher">
+    <h1>Dreamcatcher</h1>
+    <h2>Le premier girlband coréen de rock</h2>
+</div>
+
+<main>
+
+    <div id="card-slider" class="splide">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <img src="img/dreamcatcher-nightmare-thumbnail.jpg" alt="Histoire de Dreamcatcher">
+                    <a href="histoire.html"><h4>Histoire du groupe</h4></a>
+                </li>
+                <li class="splide__slide">
+                    <img src="img/dreamcatcher-dejavu.jpeg" alt="Discographie de Dreamcatcher">
+                    <a href="discographie.html"><h4>Discographie du groupe</h4></a>
+                </li>
+                <li class="splide__slide">
+                    <img src="img/dreamcatcher-rtu-thumbnail.jpg" alt="Les membres de Dreamcatcher">
+                    <a href="membres.html"><h4>Membres du groupe</h4></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <h3>Suivez Dreamcatcher</h3>
+    <div class="reseaux">
+        <a href="https://twitter.com/hf_dreamcatcher"><i class="fab fa-twitter"></i></a>
+        <a href="https://open.spotify.com/artist/5V1qsQHdXNm4ZEZHWvFnqQ?si=X5Jjz3L0SsS6lhH-uWiGxQ"><i
+                class="fab fa-spotify"></i></a>
+        <a href="https://www.instagram.com/hf_dreamcatcher/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UCijULR2sXLutCRBtW3_WEfA"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.tiktok.com/@official_dreamcatcher"><i class="fab fa-tiktok"></i></a>
+    </div>
+
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="histoire.html">Histoire</a></li>
+        <li><a href="discographie.html">Discographie</a></li>
+        <li><a href="membres.html">Membres</a></li>
+    </ul>
+
+    <p>Exercice réalisé dans le cadre pédagogique du <a href="https://mmimontbeliard.com/">département MMI
+        Montbéliard</a></p>
+</footer>
+
+</body>
+</html>
